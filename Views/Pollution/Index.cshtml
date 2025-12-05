@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Chọn file CSV để dự đoán";
+}
+
+<h2>Chọn file CSV để dự đoán</h2>
+
+<form asp-action="UploadCsv" asp-controller="Pollution" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="csvFile">Chọn file CSV:</label>
+        <input type="file" name="csvFile" class="form-control" accept=".csv" required />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Tải lên và dự đoán</button>
+</form>
+
+@* Phần hiển thị MSE/R2 này không được sử dụng trong Controller hiện tại (PollutionController)
+    vì đánh giá được thực hiện và chuyển thẳng đến View Result.cshtml.
+    Có thể giữ lại cho mục đích debugging hoặc đánh giá mô hình ban đầu.
+*@
+@if (ViewBag.MSE != null && ViewBag.R2 != null)
+{
+    <div class="alert alert-info mt-3">
+        <strong>Đánh giá mô hình:</strong><br />
+        MSE = @ViewBag.MSE.ToString("0.0000") <br />
+        R² = @ViewBag.R2.ToString("0.0000")
+    </div>
+}

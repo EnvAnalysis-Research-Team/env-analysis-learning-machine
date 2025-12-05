@@ -1,0 +1,55 @@
+﻿@model train_ml.Models.PredictionResult
+@{
+    ViewData["Title"] = "Kết quả dự đoán";
+}
+
+<h2>Kết quả dự đoán cho @Model.YearMonth</h2>
+
+<div class="alert alert-info">
+    <strong>Đánh giá mô hình:</strong><br />
+    Mean Squared Error (MSE): @Model.MSE.ToString("F4") <br />
+    R-squared (R²): @Model.R2.ToString("F4")
+</div>
+
+@if (Model.WarningCount > 0)
+{
+    <div class="alert alert-danger">
+        Tổng cảnh báo: @Model.WarningCount vượt ngưỡng.
+    </div>
+}
+else
+{
+    <div class="alert alert-success">
+        Không có dự đoán vượt ngưỡng.
+    </div>
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Parameter</th>
+            <th>Thời điểm</th>
+            <th>Giá trị dự đoán</th>
+            <th>Đơn vị</th>
+            <th>Ngưỡng</th>
+            <th>Cảnh báo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var row in Model.Rows)
+        {
+            var rowClass = row.IsWarning ?
+            "table-warning" : "";
+            <tr class="@rowClass">
+                <td>@(string.IsNullOrWhiteSpace(row.ParameterDisplayName) ? row.ParameterCode : row.ParameterDisplayName)</td>
+                <td>@row.MeasurementDate.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@row.PredictedValue.ToString("F4")</td>
+                <td>@row.Unit</td>
+                <td>@(row.Threshold?.ToString("F2") ?? "-")</td>
+                <td>@(row.IsWarning ? "Vượt" : "")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-secondary">Quay lại</a>
