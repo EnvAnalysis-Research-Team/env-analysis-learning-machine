@@ -29,6 +29,7 @@ else
         <tr>
             <th>Parameter</th>
             <th>Thời điểm</th>
+            <th>Thực tế</th>
             <th>Giá trị dự đoán</th>
             <th>Đơn vị</th>
             <th>Ngưỡng</th>
@@ -36,19 +37,25 @@ else
         </tr>
     </thead>
     <tbody>
-        @foreach (var row in Model.Rows)
-        {
-            var rowClass = row.IsWarning ?
-            "table-warning" : "";
-            <tr class="@rowClass">
-                <td>@(string.IsNullOrWhiteSpace(row.ParameterDisplayName) ? row.ParameterCode : row.ParameterDisplayName)</td>
-                <td>@row.MeasurementDate.ToString("yyyy-MM-dd HH:mm")</td>
-                <td>@row.PredictedValue.ToString("F4")</td>
-                <td>@row.Unit</td>
-                <td>@(row.Threshold?.ToString("F2") ?? "-")</td>
-                <td>@(row.IsWarning ? "Vượt" : "")</td>
-            </tr>
-        }
+@if (Model.Rows == null || Model.Rows.Length == 0)
+{
+    <tr><td colspan="7">Không có dữ liệu.</td></tr>
+}
+else
+{
+    foreach (var row in Model.Rows)
+    {
+        <tr class="@(row.IsWarning ? "table-warning" : "")">
+            <td>@(string.IsNullOrWhiteSpace(row.ParameterDisplayName) ? row.ParameterCode : row.ParameterDisplayName)</td>
+            <td>@row.MeasurementDate.ToString("yyyy-MM-dd HH:mm")</td>
+            <td>@(row.ActualValue?.ToString("F4") ?? "-")</td>
+            <td>@row.PredictedValue.ToString("F4")</td>
+            <td>@row.Unit</td>
+            <td>@(row.Threshold?.ToString("F2") ?? "-")</td>
+            <td>@(row.IsWarning ? "Vượt" : "")</td>
+        </tr>
+    }
+}
     </tbody>
 </table>
 

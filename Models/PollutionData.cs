@@ -14,7 +14,7 @@ namespace train_ml.Models
         [LoadColumn(6)] public string ParameterCode { get; set; }
         [LoadColumn(7)] public string Remark { get; set; }
         [LoadColumn(8)] public string Unit { get; set; }
-        [LoadColumn(9)] public float Value { get; set; } //label
+        [LoadColumn(9)] public float Value { get; set; } // label
         [LoadColumn(10)] public string Type { get; set; }
 
     }
@@ -34,6 +34,7 @@ namespace train_ml.Models
         public string Unit { get; set; }
         public bool IsWarning { get; set; }
         public float? Threshold { get; set; }
+        public float? ActualValue { get; set; }
     }
 
     public class PredictionResult

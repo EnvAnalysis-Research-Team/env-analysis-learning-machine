@@ -1,12 +1,13 @@
-﻿using Microsoft.ML;
-using Microsoft.ML.Data;
+﻿using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.Extensions.Options;
-using train_ml.Models;
-using train_ml.Services;
+using Microsoft.ML;
+using Microsoft.ML.Data;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using train_ml.Models;
+using train_ml.Services;
 
 namespace train_ml.Services
 {
@@ -143,6 +144,7 @@ namespace train_ml.Services
                 return new PredictionRow
                 {
                     ParameterCode = original.ParameterCode,
+                    ActualValue = original.Value,
                     ParameterDisplayName = displayName,
                     MeasurementDate = original.MeasurementDate,
                     PredictedValue = predicted.PredictedValue,
@@ -158,7 +160,7 @@ namespace train_ml.Services
                 YearMonth = "File đã tải lên",
                 MSE = metrics.MeanSquaredError,
                 R2 = metrics.RSquared,
-                WarningCount = warningCount,
+                WarningCount = warningCount,    
                 Rows = predictionRows
             };
         }

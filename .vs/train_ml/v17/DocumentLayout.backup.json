@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\train_ml\\",
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\test_ml\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\services\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:services\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\models\\thresholdoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:models\\thresholdoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\models\\pollutiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\models\\pollutiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:models\\pollutiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\controllers\\pollutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\models\\thresholdoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:models\\thresholdoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\controllers\\pollutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:controllers\\pollutioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\views\\pollution\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\views\\pollution\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:views\\pollution\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\train_ml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\services\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:services\\ipredictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\views\\pollution\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:views\\pollution\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|c:\\users\\nguye\\source\\repos\\test_ml\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EF6563D-D6D0-40AB-925D-ACC8C37E63D0}|train_ml.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,93 +46,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Result.cshtml",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Views\\Pollution\\Result.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pollution\\Result.cshtml",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Views\\Pollution\\Result.cshtml",
-              "RelativeToolTip": "Views\\Pollution\\Result.cshtml",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Views\\Pollution\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pollution\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Views\\Pollution\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pollution\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-05T08:48:31.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T12:54:44.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Views\\Pollution\\Result.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pollution\\Result.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Views\\Pollution\\Result.cshtml",
+              "RelativeToolTip": "Views\\Pollution\\Result.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwD0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T08:48:31.266Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ThresholdOptions.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Models\\ThresholdOptions.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Models\\ThresholdOptions.cs",
               "RelativeDocumentMoniker": "Models\\ThresholdOptions.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Models\\ThresholdOptions.cs*",
-              "RelativeToolTip": "Models\\ThresholdOptions.cs*",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Models\\ThresholdOptions.cs",
+              "RelativeToolTip": "Models\\ThresholdOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:38:45.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:38:45.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-05T08:35:11.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:35:11.22Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PredictionService.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Services\\PredictionService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Services\\PredictionService.cs",
               "RelativeDocumentMoniker": "Services\\PredictionService.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Services\\PredictionService.cs*",
-              "RelativeToolTip": "Services\\PredictionService.cs*",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAkwH4AAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Services\\PredictionService.cs",
+              "RelativeToolTip": "Services\\PredictionService.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAqwJkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T08:09:20.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PollutionController.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Controllers\\PollutionController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Controllers\\PollutionController.cs",
               "RelativeDocumentMoniker": "Controllers\\PollutionController.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Controllers\\PollutionController.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Controllers\\PollutionController.cs",
               "RelativeToolTip": "Controllers\\PollutionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:06:53.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:06:53.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IPredictionService.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Services\\IPredictionService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Services\\IPredictionService.cs",
               "RelativeDocumentMoniker": "Services\\IPredictionService.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Services\\IPredictionService.cs*",
-              "RelativeToolTip": "Services\\IPredictionService.cs*",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Services\\IPredictionService.cs",
+              "RelativeToolTip": "Services\\IPredictionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T08:06:04.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T08:06:04.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,16 +147,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PollutionData.cs",
-              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\train_ml\\Models\\PollutionData.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\test_ml\\Models\\PollutionData.cs",
               "RelativeDocumentMoniker": "Models\\PollutionData.cs",
-              "ToolTip": "C:\\Users\\nguye\\source\\repos\\train_ml\\Models\\PollutionData.cs*",
-              "RelativeToolTip": "Models\\PollutionData.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBAAAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\test_ml\\Models\\PollutionData.cs",
+              "RelativeToolTip": "Models\\PollutionData.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T07:59:00.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T07:59:00.206Z"
             }
           ]
         }

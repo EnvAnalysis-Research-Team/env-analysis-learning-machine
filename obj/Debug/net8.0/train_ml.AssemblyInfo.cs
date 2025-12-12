@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("train_ml")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b6d936927db7b99f442805059f272705f7a1992")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25660543adb4ee3381aec7401e18215629041725")]
 [assembly: System.Reflection.AssemblyProductAttribute("train_ml")]
 [assembly: System.Reflection.AssemblyTitleAttribute("train_ml")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zzACT7czmH4=",
+  "dgSpecHash": "0/rBIUYdLCY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\train_ml\\train_ml.csproj",
+  "projectFilePath": "C:\\Users\\nguye\\source\\repos\\test_ml\\train_ml.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.22\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.22.nupkg.sha512",
