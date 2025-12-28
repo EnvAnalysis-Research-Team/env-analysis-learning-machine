@@ -803,3 +803,14 @@ C:\Users\nguye\source\repos\test_ml\obj\Debug\net8.0\refint\train_ml.dll
 C:\Users\nguye\source\repos\test_ml\obj\Debug\net8.0\train_ml.pdb
 C:\Users\nguye\source\repos\test_ml\obj\Debug\net8.0\train_ml.genruntimeconfig.cache
 C:\Users\nguye\source\repos\test_ml\obj\Debug\net8.0\ref\train_ml.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\Microsoft.ML.TimeSeries.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\linux-x64\native\libMklImports.so
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\linux-x64\native\libMklProxyNative.so
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\osx-x64\native\libMklImports.dylib
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\osx-x64\native\libMklProxyNative.dylib
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x64\native\MklImports.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x64\native\MklProxyNative.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x64\native\libiomp5md.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x86\native\MklImports.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x86\native\MklProxyNative.dll
+C:\Users\nguye\source\repos\test_ml\bin\Debug\net8.0\runtimes\win-x86\native\libiomp5md.dll

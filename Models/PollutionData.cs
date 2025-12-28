@@ -40,7 +40,7 @@ namespace train_ml.Models
     public class PredictionResult
     {
         public string YearMonth { get; set; }
-        public double MSE { get; set; }
+        public double RMSE { get; set; }
         public double R2 { get; set; }
         public int WarningCount { get; set; }
         public PredictionRow[] Rows { get; set; }

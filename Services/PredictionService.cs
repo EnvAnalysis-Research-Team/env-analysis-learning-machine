@@ -158,7 +158,7 @@ namespace train_ml.Services
             return new PredictionResult
             {
                 YearMonth = "File đã tải lên",
-                MSE = metrics.MeanSquaredError,
+                RMSE = metrics.RootMeanSquaredError,
                 R2 = metrics.RSquared,
                 WarningCount = warningCount,    
                 Rows = predictionRows
